@@ -136,7 +136,7 @@ export default function Footer() {
             <div className={styles.bottomSection}>
                 <div className={styles.bottomContainer}>
                     <div className={styles.copyright}>
-                        &copy; {currentYear} ZahriTours Company. {t('footer_built_by')} <a href="https://sitepro.ma" target="_blank" rel="noopener noreferrer" className={styles.agencyLink}>SitePro.ma - Web Agency Morocco</a>
+                        &copy; {currentYear} ZahriTours Company. {t('footer_rights')}
                     </div>
                     <div className={styles.legalLinks}>
                         <Link href={getPath('/privacy')}>{t('footer_privacy')}</Link>

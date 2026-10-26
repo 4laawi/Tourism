@@ -159,7 +159,7 @@ export const translations: Record<Language, Record<string, string>> = {
         'footer_blog': 'Travel Blog',
         'footer_privacy': 'Privacy Policy',
         'footer_terms': 'Terms of Service',
-        'footer_built_by': 'Built by',
+        'footer_rights': 'All rights reserved.',
         // Blog
         'blog_banner_title': 'Insights & Tales from the Heart of Morocco',
         'blog_read_more': 'Read More',
@@ -466,7 +466,7 @@ export const translations: Record<Language, Record<string, string>> = {
         'footer_blog': 'Blog de voyage',
         'footer_privacy': 'Politique de confidentialité',
         'footer_terms': 'Conditions d\'utilisation',
-        'footer_built_by': 'Créé par',
+        'footer_rights': 'Tous droits réservés.',
         // Blog
         'blog_banner_title': 'Regards & Récits du Cœur du Maroc',
         'blog_read_more': 'Lire la suite',

@@ -63,7 +63,7 @@ export async function submitPartnerForm(formData: FormData) {
         }
 
         const { error } = await resend.emails.send({
-            from: "contact@sitepro.ma",
+            from: process.env.RESEND_FROM_EMAIL || "booking@tiqalgs.com",
             to: "booking@tiqalgs.com",
             subject: `B2B Partner Application: ${companyName} (${businessType})`,
             html: htmlContent,

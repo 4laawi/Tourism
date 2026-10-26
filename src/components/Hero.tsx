@@ -218,7 +218,6 @@ export default function Hero(props: { imageUrl?: string }) {
             <div className={styles.contentContainer}>
                 <div className={styles.mainContent}>
                     <div className={styles.textColumn}>
-                        <div className={styles.badge}>{t('plan_trip')}</div>
                         <h1 className={styles.title} dangerouslySetInnerHTML={{ __html: t('hero_title').replace('Today', '<br />Today') }}>
                         </h1>
                         <p className={styles.subtitle}>

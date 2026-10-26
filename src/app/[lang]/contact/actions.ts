@@ -12,7 +12,7 @@ export async function sendEmail(formData: FormData) {
 
     try {
         const { error } = await resend.emails.send({
-            from: "contact@sitepro.ma",
+            from: process.env.RESEND_FROM_EMAIL || "booking@tiqalgs.com",
             to: "booking@tiqalgs.com",
             subject: `New Message from ${name} (ZahriTours)`,
             html: `

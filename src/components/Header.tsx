@@ -98,12 +98,6 @@ export default function Header() {
                     </Link>
                 </nav>
 
-                <div className={styles.rightAction}>
-                    <Link href={getPath('/contact')} className={styles.contactBtn}>
-                        {t('contact_us')} <span className={styles.arrow}>→</span>
-                    </Link>
-                </div>
-
                 <div className={styles.mobileToggle}>
                     <button
                         className={`${styles.hamburger} ${isMenuOpen ? styles.hamburgerActive : ''}`}
@@ -144,10 +138,10 @@ export default function Header() {
                         </Link>
                         <Link
                             href={getPath('/contact')}
-                            className={styles.mobileContactBtn}
+                            className={`${styles.mobileNavLink} ${isActive('/contact') ? styles.mobileActive : ''}`}
                             onClick={() => setIsMenuOpen(false)}
                         >
-                            {t('contact_us')}
+                            {t('contact')}
                         </Link>
                     </nav>
 
